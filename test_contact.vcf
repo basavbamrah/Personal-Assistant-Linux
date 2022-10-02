@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:2.1
+N:me;;;
+FN:Me
+TEL;CELL:+91********
+END:VCARD
+BEGIN:VCARD
+VERSION:2.1
+N:;FRIEND;;;
+FN:Mom
+TEL;CELL:***********
+TEL;CELL:+91**********
+END:VCARD
