@@ -1,7 +1,7 @@
 import window
 from newsapi import NewsApiClient
 import multiprocessing
-apikey = 'e57b00e4bf54487892765f153c215924'
+apikey = <your api key>
 
 
 # Init
