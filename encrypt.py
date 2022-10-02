@@ -69,6 +69,3 @@ class Encrypt:
         data=obj.decrypt(data.encode()).decode()
         return data
 
-
-# print(Encrypt().hash_fun(12))
-# print(Encrypt().hash_fun("9621100179", False))
