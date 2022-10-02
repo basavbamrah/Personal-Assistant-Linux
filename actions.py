@@ -1,4 +1,4 @@
-# import message
+import message
 import window
 import voice
 import webbrowser
@@ -53,30 +53,30 @@ class Action:
         elif 'todo list' in self.speech or 'to do list' in self.speech:
             multiprocessing.Process(target=self.obj.todo).start()
 
-        # elif 'whatsapp web' in self.speech:
-        #     self.msg.open()
+        elif 'whatsapp web' in self.speech:
+            self.msg.open()
 
-        # elif 'send message' in self.speech:
-        #     print('yes')
-        #     self.vg.text_to_speech('whom do you want to send:')
-        #     name = self.vg.takecommand()
+        elif 'send message' in self.speech:
+            print('yes')
+            self.vg.text_to_speech('whom do you want to send:')
+            name = self.vg.takecommand()
 
-        #     self.vg.text_to_speech("what fo you want to send:  ")
-        #     msg = self.vg.takecommand()
+            self.vg.text_to_speech("what fo you want to send:  ")
+            msg = self.vg.takecommand()
 
-        #     number = db().fetch_number(name.strip())
-        #     print(number)
-        #     # # print(number)
-        #     for i in number:
+            number = db().fetch_number(name.strip())
+            print(number)
+            # # print(number)
+            for i in number:
 
-        #         print(i)
-        #         if i:
-        #             try:
-        #                 print(self.msg.send_msg_to_one(msg, i))
-        #                 break
-        #             except Exception as e:
+                print(i)
+                if i:
+                    try:
+                        print(self.msg.send_msg_to_one(msg, i))
+                        break
+                    except Exception as e:
 
-        #                 print(e)
+                        print(e)
         elif 'shutdown' in self.speech:
             os.system('shutdown now')
         elif 'log off' in self.speech:
