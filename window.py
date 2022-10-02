@@ -132,5 +132,3 @@ class Window:
             TextBox.insert(END, desc)
             # TextBox.yview(END)
         root.mainloop()
-
-# Window().print_text("Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u Hello how are u ")

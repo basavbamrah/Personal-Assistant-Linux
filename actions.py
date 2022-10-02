@@ -96,8 +96,13 @@ class Action:
 
         elif 'news on' in speech:
             pass
+        elif 'open code' in speech:
+            os.system('code')
+
+        elif 'take screenshot' in speech:
+            os.system('gnome-screenshot')
 
 
-Action().handler_action('news headlines')
+Action().handler_action('take screenshot')
 # Action().handler_action('shutdown')
 # Action().handler_action('log off')

@@ -1,9 +1,10 @@
-pip install wolframalpha
-pip install wikipedia
-pip install twilio
 sudo apt install espeak
 sudo apt install libnotify-bin
 sudo pip install gTTS
+sudo apt install gnome-screenshot 
+pip install wolframalpha
+pip install wikipedia
+pip install twilio
 pip install playback
 pip install utilities-package
 pip install pipwin
