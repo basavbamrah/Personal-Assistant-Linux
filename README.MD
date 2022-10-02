@@ -1,17 +1,1 @@
-pip install wolframalpha
-pip install wikipedia
-pip install twilio
-sudo apt install espeak
-sudo apt install libnotify-bin
-
-sudo pip install gTTS
-pip install playback
-pip install utilities-package
-pip install pipwin
-pipwin install pyaudio
-pip install selenium
-pip install Flask
-pip install pywhatkit
-pip install webdriver-manager
-pip install PyVCF
-pip install newsapi-python
+# Personal Assistant Linux
