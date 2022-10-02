@@ -103,6 +103,6 @@ class Action:
             os.system('gnome-screenshot')
 
 
-Action().handler_action('take screenshot')
+# Action().handler_action('take screenshot')
 # Action().handler_action('shutdown')
 # Action().handler_action('log off')
