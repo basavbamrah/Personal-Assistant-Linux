@@ -3,7 +3,6 @@ pip install wikipedia
 pip install twilio
 sudo apt install espeak
 sudo apt install libnotify-bin
-
 sudo pip install gTTS
 pip install playback
 pip install utilities-package
